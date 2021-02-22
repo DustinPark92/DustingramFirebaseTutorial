@@ -3,27 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		DAE8372D25E38790007E8788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8372C25E38790007E8788 /* AppDelegate.swift */; };
 		DAE8372F25E38790007E8788 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8372E25E38790007E8788 /* SceneDelegate.swift */; };
-		DAE8373125E38790007E8788 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8373025E38790007E8788 /* ViewController.swift */; };
 		DAE8373425E38790007E8788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE8373225E38790007E8788 /* Main.storyboard */; };
-		DAE8373625E38791007E8788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE8373525E38791007E8788 /* Assets.xcassets */; };
 		DAE8373925E38791007E8788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE8373725E38791007E8788 /* LaunchScreen.storyboard */; };
+		DAE8374225E387AA007E8788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE8374125E387AA007E8788 /* Assets.xcassets */; };
+		DAE8374C25E3884F007E8788 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8374B25E3884F007E8788 /* MainTabController.swift */; };
+		DAE8375025E38914007E8788 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8374F25E38914007E8788 /* FeedController.swift */; };
+		DAE8375325E3891B007E8788 /* SerachController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8375225E3891B007E8788 /* SerachController.swift */; };
+		DAE8375625E3892A007E8788 /* ImageSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8375525E3892A007E8788 /* ImageSelectorController.swift */; };
+		DAE8375925E38931007E8788 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8375825E38931007E8788 /* ProfileController.swift */; };
+		DAE8375C25E3893C007E8788 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8375B25E3893C007E8788 /* NotificationController.swift */; };
+		DAE8375F25E3895C007E8788 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAE8375E25E3895C007E8788 /* GoogleService-Info.plist */; };
+		DAE8377D25E38D80007E8788 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8377C25E38D80007E8788 /* Extensions.swift */; };
+		DAE8378025E38D94007E8788 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8377F25E38D94007E8788 /* FeedCell.swift */; };
+		DAE8378325E391F1007E8788 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8378225E391F1007E8788 /* ViewController.swift */; };
+		DAE837A525E39761007E8788 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE837A425E39761007E8788 /* LoginController.swift */; };
+		DAE837A925E39775007E8788 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE837A825E39775007E8788 /* RegistrationController.swift */; };
+		DAE837AC25E398EB007E8788 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE837AB25E398EB007E8788 /* CustomTextField.swift */; };
+		F18A809A097F7248BD066F8C /* Pods_DustingramFirebaseTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A886EF17C942944DD4E3ACC /* Pods_DustingramFirebaseTutorial.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A886EF17C942944DD4E3ACC /* Pods_DustingramFirebaseTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DustingramFirebaseTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B808934E196E98300DDE2200 /* Pods-DustingramFirebaseTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DustingramFirebaseTutorial.debug.xcconfig"; path = "Target Support Files/Pods-DustingramFirebaseTutorial/Pods-DustingramFirebaseTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		DAE8372925E38790007E8788 /* DustingramFirebaseTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DustingramFirebaseTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE8372C25E38790007E8788 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAE8372E25E38790007E8788 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DAE8373025E38790007E8788 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DAE8373325E38790007E8788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DAE8373525E38791007E8788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAE8373825E38791007E8788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAE8373A25E38791007E8788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE8374125E387AA007E8788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
+		DAE8374B25E3884F007E8788 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		DAE8374F25E38914007E8788 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		DAE8375225E3891B007E8788 /* SerachController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerachController.swift; sourceTree = "<group>"; };
+		DAE8375525E3892A007E8788 /* ImageSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorController.swift; sourceTree = "<group>"; };
+		DAE8375825E38931007E8788 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		DAE8375B25E3893C007E8788 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		DAE8375E25E3895C007E8788 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DAE8377C25E38D80007E8788 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DAE8377F25E38D94007E8788 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		DAE8378225E391F1007E8788 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAE837A425E39761007E8788 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		DAE837A825E39775007E8788 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		DAE837AB25E398EB007E8788 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		F51EF8D1390236DDABBA8C2E /* Pods-DustingramFirebaseTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DustingramFirebaseTutorial.release.xcconfig"; path = "Target Support Files/Pods-DustingramFirebaseTutorial/Pods-DustingramFirebaseTutorial.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F18A809A097F7248BD066F8C /* Pods_DustingramFirebaseTutorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		518BB283294123F7FA366A1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A886EF17C942944DD4E3ACC /* Pods_DustingramFirebaseTutorial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7591168C20FF9BB8F8874536 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B808934E196E98300DDE2200 /* Pods-DustingramFirebaseTutorial.debug.xcconfig */,
+				F51EF8D1390236DDABBA8C2E /* Pods-DustingramFirebaseTutorial.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DAE8372025E38790007E8788 = {
 			isa = PBXGroup;
 			children = (
 				DAE8372B25E38790007E8788 /* DustingramFirebaseTutorial */,
 				DAE8372A25E38790007E8788 /* Products */,
+				7591168C20FF9BB8F8874536 /* Pods */,
+				518BB283294123F7FA366A1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +104,83 @@
 		DAE8372B25E38790007E8788 /* DustingramFirebaseTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				DAE8374A25E387F5007E8788 /* Utils */,
+				DAE8374925E387F2007E8788 /* API */,
+				DAE8374825E387E9007E8788 /* Controller */,
+				DAE8374725E387E1007E8788 /* Model */,
+				DAE8374625E387BA007E8788 /* ViewModel */,
+				DAE8374525E387B6007E8788 /* View */,
 				DAE8372C25E38790007E8788 /* AppDelegate.swift */,
 				DAE8372E25E38790007E8788 /* SceneDelegate.swift */,
-				DAE8373025E38790007E8788 /* ViewController.swift */,
+				DAE8378225E391F1007E8788 /* ViewController.swift */,
 				DAE8373225E38790007E8788 /* Main.storyboard */,
-				DAE8373525E38791007E8788 /* Assets.xcassets */,
+				DAE8374125E387AA007E8788 /* Assets.xcassets */,
 				DAE8373725E38791007E8788 /* LaunchScreen.storyboard */,
 				DAE8373A25E38791007E8788 /* Info.plist */,
+				DAE8375E25E3895C007E8788 /* GoogleService-Info.plist */,
 			);
 			path = DustingramFirebaseTutorial;
+			sourceTree = "<group>";
+		};
+		DAE8374525E387B6007E8788 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DAE8377F25E38D94007E8788 /* FeedCell.swift */,
+				DAE837AB25E398EB007E8788 /* CustomTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DAE8374625E387BA007E8788 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DAE8374725E387E1007E8788 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DAE8374825E387E9007E8788 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DAE837A325E39751007E8788 /* Authentication */,
+				DAE8374B25E3884F007E8788 /* MainTabController.swift */,
+				DAE8374F25E38914007E8788 /* FeedController.swift */,
+				DAE8375225E3891B007E8788 /* SerachController.swift */,
+				DAE8375525E3892A007E8788 /* ImageSelectorController.swift */,
+				DAE8375825E38931007E8788 /* ProfileController.swift */,
+				DAE8375B25E3893C007E8788 /* NotificationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DAE8374925E387F2007E8788 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		DAE8374A25E387F5007E8788 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DAE8377C25E38D80007E8788 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DAE837A325E39751007E8788 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				DAE837A425E39761007E8788 /* LoginController.swift */,
+				DAE837A825E39775007E8788 /* RegistrationController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAE8373D25E38791007E8788 /* Build configuration list for PBXNativeTarget "DustingramFirebaseTutorial" */;
 			buildPhases = (
+				A1686FAE80A6B188C9404D07 /* [CP] Check Pods Manifest.lock */,
 				DAE8372525E38790007E8788 /* Sources */,
 				DAE8372625E38790007E8788 /* Frameworks */,
 				DAE8372725E38790007E8788 /* Resources */,
+				B36FE144C9DBA2BF7129E6BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,21 +243,75 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAE8373925E38791007E8788 /* LaunchScreen.storyboard in Resources */,
-				DAE8373625E38791007E8788 /* Assets.xcassets in Resources */,
+				DAE8374225E387AA007E8788 /* Assets.xcassets in Resources */,
 				DAE8373425E38790007E8788 /* Main.storyboard in Resources */,
+				DAE8375F25E3895C007E8788 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1686FAE80A6B188C9404D07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DustingramFirebaseTutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B36FE144C9DBA2BF7129E6BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DustingramFirebaseTutorial/Pods-DustingramFirebaseTutorial-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DustingramFirebaseTutorial/Pods-DustingramFirebaseTutorial-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DustingramFirebaseTutorial/Pods-DustingramFirebaseTutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DAE8372525E38790007E8788 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAE8373125E38790007E8788 /* ViewController.swift in Sources */,
+				DAE837AC25E398EB007E8788 /* CustomTextField.swift in Sources */,
+				DAE8375625E3892A007E8788 /* ImageSelectorController.swift in Sources */,
+				DAE837A525E39761007E8788 /* LoginController.swift in Sources */,
+				DAE8378025E38D94007E8788 /* FeedCell.swift in Sources */,
+				DAE8377D25E38D80007E8788 /* Extensions.swift in Sources */,
+				DAE8374C25E3884F007E8788 /* MainTabController.swift in Sources */,
+				DAE8378325E391F1007E8788 /* ViewController.swift in Sources */,
+				DAE8375025E38914007E8788 /* FeedController.swift in Sources */,
+				DAE8375325E3891B007E8788 /* SerachController.swift in Sources */,
 				DAE8372D25E38790007E8788 /* AppDelegate.swift in Sources */,
+				DAE8375C25E3893C007E8788 /* NotificationController.swift in Sources */,
 				DAE8372F25E38790007E8788 /* SceneDelegate.swift in Sources */,
+				DAE8375925E38931007E8788 /* ProfileController.swift in Sources */,
+				DAE837A925E39775007E8788 /* RegistrationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +455,7 @@
 		};
 		DAE8373E25E38791007E8788 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B808934E196E98300DDE2200 /* Pods-DustingramFirebaseTutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +475,7 @@
 		};
 		DAE8373F25E38791007E8788 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F51EF8D1390236DDABBA8C2E /* Pods-DustingramFirebaseTutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

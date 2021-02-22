@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ImageSelectorController.swift
 //  DustingramFirebaseTutorial
 //
 //  Created by Dustin on 2021/02/22.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ImageSelectorController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

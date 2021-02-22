@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SerachController.swift
 //  DustingramFirebaseTutorial
 //
 //  Created by Dustin on 2021/02/22.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SerachController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
